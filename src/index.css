@@ -7,27 +7,27 @@
 
 @font-face {
   font-family: "Universo Black";
-  src: url("../public/fonts/Fontspring-DEMO-universo-black.otf");
+  src: url("../fonts/Fontspring-DEMO-universo-black.otf");
 }
 
 @font-face {
   font-family: "Universo";
-  src: url("../public/fonts/Fontspring-DEMO-universo-regular.otf");
+  src: url("../fonts/Fontspring-DEMO-universo-regular.otf");
 }
 
 @font-face {
   font-family: "Universo Light";
-  src: url("../public/fonts/Fontspring-DEMO-universo-light.otf");
+  src: url("../fonts/Fontspring-DEMO-universo-light.otf");
 }
 
 @font-face {
   font-family: "Universo Stencil";
-  src: url("../public/fonts/Fontspring-DEMO-universo-stencil.otf");
+  src: url("../fonts/Fontspring-DEMO-universo-stencil.otf");
 }
 
 @font-face {
   font-family: "Universo Thin";
-  src: url("../public/fonts/Fontspring-DEMO-universo-thin.otf");
+  src: url("../fonts/Fontspring-DEMO-universo-thin.otf");
 }
 
 body{
