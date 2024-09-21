@@ -1,13 +1,13 @@
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const headingStyle =
-  "font-bold text-[7.5rem] my-0 p-0 leading-none tracking-widest";
+  "font-universoblack text-[7rem] my-0 p-0 leading-none tracking-widest";
 import Mascot from "../assets/mascot.png";
-import Button from "./Button";
+import Button from "./shared/Button";
 
 const Hero = () => {
   return (
-    <div className="mt-12 flex relative overflow-hidden">
+    <div className="mt-12 mb-24 flex relative overflow-hidden">
       {" "}
       {/* Ensure overflow-hidden is on the correct container */}
       <div className="w-2/3">
@@ -16,7 +16,7 @@ const Hero = () => {
         </h1>
         <h1 className={headingStyle}>UNLEASH</h1>
         <h1 className={headingStyle}>THE</h1>
-        <h1 className={headingStyle}>WORLD'S</h1>
+        <h1 className={headingStyle}>WORLD<span className="font-inter">'</span>S</h1>
         <h1 className={headingStyle}>METAVERSE</h1>
        <div className="w-2/3 tracking-wide leading-relaxed">
        <p className="text-gray-400 font-thin">
@@ -38,7 +38,7 @@ const Hero = () => {
       </div>
       <div className="w-1/3">
         <img
-          className="absolute left-44 -top-52 w-[120rem] h-[60rem] rotate-6"
+          className="absolute left-72 -top-60 w-[120rem] h-[60rem] rotate-[15deg]"
           src={Mascot}
           alt="Mascot"
         />{" "}
