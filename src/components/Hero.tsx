@@ -1,7 +1,7 @@
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 const headingStyle =
-  "font-universoblack text-[7rem] my-0 p-0 leading-none tracking-widest";
+  "font-universoblack text-[6.5rem] my-0 p-0 leading-none tracking-widest";
 import Mascot from "../assets/mascot.png";
 import Button from "./shared/Button";
 
@@ -18,17 +18,17 @@ const Hero = () => {
         <h1 className={headingStyle}>THE</h1>
         <h1 className={headingStyle}>WORLD<span className="font-inter">'</span>S</h1>
         <h1 className={headingStyle}>METAVERSE</h1>
-       <div className="w-2/3 tracking-wide leading-relaxed">
-       <p className="text-gray-400 font-thin">
+       <div className="w-2/3 my-6 tracking-wide">
+       <p className="text-gray-400 font-universolight text-xs leading-loose">
           Open the global metavserse, Innovatio s in VR and AR to amplify the
           effect of their presense place you in the world in 360 degrees
-          viewpoint Volume
+          viewpoint Volume.
         </p>
        </div>
        <div className="w-2/3 flex justify-start mt-6">
             <button className="p-[1px] rounded-3xl  bg-custom-gradient hover:bg-custom-gradient2 mr-4">
                 <button className="px-6 py-3 rounded-3xl bg-black/90 flex align-middle justify-center">
-                    <span className="my-auto">Let's Go</span>
+                    <span className="my-auto">Let<span className="font-inter">'</span>s Go</span>
                     <HiOutlineArrowLongRight className="my-auto mx-2" size={25} />
                 </button>
                 
