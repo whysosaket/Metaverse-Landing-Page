@@ -36,9 +36,9 @@ const Hero = () => {
             <Button text="Watch Videos" />
        </div>
       </div>
-      <div className="relative w-1/3">
+      <div className="w-1/3">
         <img
-          className="absolute left-20 -top-20 w-[10rem] h-[55rem]"
+          className="absolute left-44 -top-52 w-[120rem] h-[60rem] rotate-6"
           src={Mascot}
           alt="Mascot"
         />{" "}
