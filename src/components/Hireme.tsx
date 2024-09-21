@@ -16,7 +16,7 @@ const Hireme = () => {
         <a href="https://drive.google.com/drive/folders/1X5QB6_CQgtkQCgt_sRsghn4NZH9aGQat?usp=sharing" target="_blank">Resume</a> | 
         <a href="https://resume.saketaryan.xyz/" target="_blank">Portfolio</a> | 
         <a href="https://x.com/whysosaket" target="_blank">Twitter</a> | 
-        <a href="mailto:saketaryan@gmail.com">Email</a>
+        <a href="mailto:saketaryan2002@gmail.com">Email</a>
       </div>
       }
     
