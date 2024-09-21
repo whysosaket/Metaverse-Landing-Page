@@ -4,7 +4,7 @@ import Inter from "./shared/Inter";
 const Info = () => {
   return (
     <div className="my-24 px-20">
-      <h1 className="text-[2.6rem] text-center">
+      <h1 className="text-[2.8rem] text-center">
         Virual Reality enhances the new experience, More and more people like
         it, the more <GradientText text="amazing " />
         virtual reality is.
