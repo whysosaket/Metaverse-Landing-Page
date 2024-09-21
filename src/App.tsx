@@ -3,6 +3,7 @@ import Hero from "./components/Hero"
 import Info from "./components/Info"
 import Navbar from "./components/Navbar"
 import Stats from "./components/Stats"
+import Testimonial from "./components/Testimonial"
 import Works from "./components/works/Works"
 
 
@@ -17,6 +18,7 @@ function App() {
       <Info />
       <FaqComponent />
       <Works />
+      <Testimonial />
     </div>
   )
 }
