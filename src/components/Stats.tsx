@@ -3,7 +3,7 @@ import Inter from "./shared/Inter";
 
 const Stats = () => {
   return (
-    <div className="flex justify-between align-middle my-20">
+    <div className="flex justify-between align-middle my-28">
       <div className="w-5/12">
         <div className="text-[2.6rem] my-4 font-universo text-justify leading-tight">
           Explore the Virtual <GradientText text="World." />
