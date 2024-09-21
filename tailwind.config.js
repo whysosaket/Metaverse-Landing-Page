@@ -13,6 +13,11 @@ export default {
       fontFamily: {
         inter: ["Inter", "system-ui"],
         gowun: ["Gowun Dodum", "sans-serif"],
+        universoblack: ["Universo Black", "sans-serif"],
+        universo: ["Universo", "sans-serif"],
+        universolight: ["Universo Light", "sans-serif"],
+        universostencil: ["Universo Stencil", "sans-serif"],
+        universothin: ["Universo Thin", "sans-serif"],
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, rgba(255, 255, 255, 0.6) 1%, rgba(241, 149, 240, 0.8) 35%, rgba(250, 86, 247, 0.9) 100%), url(assets/noise.svg)',
