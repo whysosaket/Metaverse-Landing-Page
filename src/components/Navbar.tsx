@@ -1,6 +1,15 @@
+import Button from "./Button"
+
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div className="w-full flex">
+        <div>
+
+        </div>
+        <div>
+            <Button text="Sign Up" />
+        </div>
+    </div>
   )
 }
 
