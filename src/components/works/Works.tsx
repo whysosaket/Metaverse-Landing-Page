@@ -10,10 +10,10 @@ const WorksData = [
 const Works = () => {
   return (
     <div>
-        <h1 className="text-[3rem] text-center">
+        <h1 className="text-3xl md:text-[3rem] text-center">
         How it <GradientText text="works"/>?
         </h1>
-        <div className="flex gap-20 my-10">
+        <div className="flex md:flex-row flex-col gap-10 md:gap-20 my-10">
             <WorkItem title={WorksData[0].title} text={WorksData[0].text} />
             <WorkItem title={WorksData[1].title} text={WorksData[1].text} />
             <WorkItem title={WorksData[2].title} text={WorksData[2].text} />

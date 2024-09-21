@@ -12,7 +12,7 @@ function App() {
 
 
   return (
-    <div className="py-6 px-24 font-universo text-[14px] text-white">
+    <div className="py-6 px-6 md:px-24 font-universo text-[14px] text-white">
       <Hireme />
       <Navbar />
       <Hero />

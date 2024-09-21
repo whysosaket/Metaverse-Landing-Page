@@ -4,14 +4,14 @@ import Inter from "./shared/Inter";
 
 const Testimonial = () => {
   return (
-    <div className="mt-24 flex align-middle">
+    <div className="mt-12 md:mt-24 md:flex align-middle">
       <img className="w-[30rem]" src={TestimonialImage} />
       <div className="">
-        <h1 className="text-[2.6rem] leading-none my-4 w-2/3">
+        <h1 className="md:text-[2.6rem] text-3xl text-center md:text-start  leading-none my-4 md:w-2/3">
           What our trusted
           <GradientText text=" clients" /> say?
         </h1>
-        <p className="w-5/6 text-gray-400 font-universolight my-4">
+        <p className="md:w-5/6 text-gray-400 font-universolight my-4">
           <Inter text="-" /> I was amazed at how easy it was to download the app
           and connect to virtual reality. The seamless experience allowed me to
           explore incredible worlds right from my smartphone. Highly recommend it to anyone looking to immerse
