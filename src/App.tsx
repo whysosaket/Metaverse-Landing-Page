@@ -1,4 +1,5 @@
 import Hero from "./components/Hero"
+import Info from "./components/Info"
 import Navbar from "./components/Navbar"
 import Stats from "./components/Stats"
 
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <Stats />
+      <Info />
     </div>
   )
 }
