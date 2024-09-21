@@ -1,3 +1,4 @@
+import FaqComponent from "./components/Faq/FaqComponent"
 import Hero from "./components/Hero"
 import Info from "./components/Info"
 import Navbar from "./components/Navbar"
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Stats />
       <Info />
+      <FaqComponent />
     </div>
   )
 }
