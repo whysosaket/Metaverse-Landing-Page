@@ -12,10 +12,12 @@ export default {
       },
       fontFamily: {
         inter: ["Inter", "system-ui"],
+        gowun: ["Gowun Dodum", "sans-serif"],
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(to right, rgba(255, 255, 255, 0.6) 1%, rgba(241, 149, 240, 0.8) 35%, rgba(250, 86, 247, 0.9) 100%), url(assets/noise.svg)',
         'custom-gradient2': 'linear-gradient(to right, rgba(255, 255, 255, 0.6) 1%, rgba(221, 129, 220, 0.8) 35%, rgba(230, 66, 227, 0.9) 100%), url(assets/noise.svg)',
+        'text-gradient': 'linear-gradient(to right, #692767 20%, #b342af 55%)',
       },
     },
   },
